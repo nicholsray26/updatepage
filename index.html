@@ -81,10 +81,26 @@
         <li>System can’t locate a suitable printer driver.</li>
         <li><strong>Quick Fix for Your Error—Reach Out via Call or Live Chat</strong></li>
       </ul>
-      <div class="buttons">
-        <a href="javascript:void(0);" onclick="openJivoChat();" class="button">START LIVE CHAT</a>
-        <a href="tel:+18664417264" class="button">CALL US +1 866-441-7264</a>
-      </div>
+<!-- Button -->
+<a href="#" onclick="window.jivo_api && jivo_api.open(); return false;" class="jivo-btn">START LIVE CHAT</a>
+
+<!-- Style -->
+<style>
+.jivo-btn {
+  padding: 10px 20px;
+  background-color: #0F5D99;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
+</style>
+
+<!-- JivoChat Script -->
+<script src="//code.jivosite.com/widget/1OqhLJQgS9" async></script>
+
       <p class="warning">Note: Do not attempt to retry the installation as it can damage the printer and void the product warranty.</p>
     </div>
     <div class="error-image">
@@ -110,6 +126,6 @@
   font-weight: bold;
 }
 </style>
-
+<script src="//code.jivosite.com/widget/1OqhLJQgS9" async></script>
 </body>
 </html>
